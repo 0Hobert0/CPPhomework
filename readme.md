@@ -1,37 +1,37 @@
-### ÌâÄ¿ÃèÊö
-ÓĞÒ»¸öÑ§ÉúÀàstudent£¬°üÀ¨Ñ§ÉúĞÕÃû¡¢³É¼¨£¬Ò»¸ö½ÌÊ¦Ààteacher£¬°üÀ¨½ÌÊ¦ĞÕÃû¡¢Ö°³Æ¡£Á½¸öÀà¹²ÓÃÒ»¸öÓÑÔ±º¯Êıprint£¨¡­¡­£©£¬Êä³öÏà¹ØĞÅÏ¢£ºÑ§ÉúĞÕÃû¡¢³É¼¨¡¢½ÌÊ¦ĞÕÃû¡¢Ö°³Æ¡£
-print£¨¡­¡­£©º¯ÊıÖĞµÄÊä³öÓï¾äÈçÏÂ£¬Çë¸´ÖÆÊ¹ÓÃ
+### é¢˜ç›®æè¿°
+æœ‰ä¸€ä¸ªå­¦ç”Ÿç±»studentï¼ŒåŒ…æ‹¬å­¦ç”Ÿå§“åã€æˆç»©ï¼Œä¸€ä¸ªæ•™å¸ˆç±»teacherï¼ŒåŒ…æ‹¬æ•™å¸ˆå§“åã€èŒç§°ã€‚ä¸¤ä¸ªç±»å…±ç”¨ä¸€ä¸ªå‹å‘˜å‡½æ•°printï¼ˆâ€¦â€¦ï¼‰ï¼Œè¾“å‡ºç›¸å…³ä¿¡æ¯ï¼šå­¦ç”Ÿå§“åã€æˆç»©ã€æ•™å¸ˆå§“åã€èŒç§°ã€‚
+printï¼ˆâ€¦â€¦ï¼‰å‡½æ•°ä¸­çš„è¾“å‡ºè¯­å¥å¦‚ä¸‹ï¼Œè¯·å¤åˆ¶ä½¿ç”¨
 > cout<<"student's name:"<<S.name<<"   "<<S.score<<endl;
-cout<<"Teacher's name:"<<T.name<<"   "<<T.pro<<endl;
+>cout<<"Teacher's name:"<<T.name<<"   "<<T.pro<<endl;
 
-main£¨£©º¯ÊıÈçÏÂ£¬Çë¸´ÖÆÊ¹ÓÃ
+mainï¼ˆï¼‰å‡½æ•°å¦‚ä¸‹ï¼Œè¯·å¤åˆ¶ä½¿ç”¨
 > int main()
-{
-	char stuname[20],teaname[20],teapro[20]; 
-	cout<<"ÇëÊäÈëÑ§ÉúĞÕÃû£º"<<endl; 
-	cin>>stuname; 
-	cout<<"ÇëÊäÈë½ÌÊ¦ĞÕÃû£º"<<endl;
-	cin>>teaname;
-	cout<<"ÇëÊäÈë½ÌÊ¦Ö°³Æ£º"<<endl;  
-	cin>>teapro;
-	Stu student(stuname,88);
-	Tea teacher(teaname,teapro);
-	print(student,teacher);
-	return 0;
-}
+> {
+>	char stuname[20],teaname[20],teapro[20]; 
+>	cout<<"è¯·è¾“å…¥å­¦ç”Ÿå§“åï¼š"<<endl; 
+>	cin>>stuname; 
+>	cout<<"è¯·è¾“å…¥æ•™å¸ˆå§“åï¼š"<<endl;
+>	cin>>teaname;
+>	cout<<"è¯·è¾“å…¥æ•™å¸ˆèŒç§°ï¼š"<<endl;  
+>	cin>>teapro;
+>	Stu student(stuname,88);
+>	Tea teacher(teaname,teapro);
+>	print(student,teacher);
+>	return 0;
+> }
 
-###ÊäÈë
+###è¾“å…¥
 >wangcheng
 zhaokai
 professor
 
-###Êä³ö
->ÇëÊäÈëÑ§ÉúĞÕÃû£º
-wangcheng    //´ËĞĞÎª¼üÅÌÊäÈëÄÚÈİ
-ÇëÊäÈë½ÌÊ¦ĞÕÃû£º
-zhaokai    //´ËĞĞÎª¼üÅÌÊäÈëÄÚÈİ
-ÇëÊäÈë½ÌÊ¦Ö°³Æ£º
-professor    //´ËĞĞÎª¼üÅÌÊäÈëÄÚÈİ
+###è¾“å‡º
+>è¯·è¾“å…¥å­¦ç”Ÿå§“åï¼š
+wangcheng    //æ­¤è¡Œä¸ºé”®ç›˜è¾“å…¥å†…å®¹
+è¯·è¾“å…¥æ•™å¸ˆå§“åï¼š
+zhaokai    //æ­¤è¡Œä¸ºé”®ç›˜è¾“å…¥å†…å®¹
+è¯·è¾“å…¥æ•™å¸ˆèŒç§°ï¼š
+professor    //æ­¤è¡Œä¸ºé”®ç›˜è¾“å…¥å†…å®¹
 student's name:wangcheng   88
 Teacher's name:zhaokai   professor
 
