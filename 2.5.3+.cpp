@@ -102,6 +102,7 @@ class Price: public Station, public Mile
 	public:
 		Price(char from[20],char to[20],double mile):Station(from,to),Mile(mile)
 		{
+			//Station(from,to);Mile(mile);
 			int a;//来判断小数部分需要乘几 
 			if( mile - int(mile) == 0 )
 			{
